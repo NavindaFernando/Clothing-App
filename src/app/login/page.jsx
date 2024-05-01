@@ -1,7 +1,7 @@
 import bg_login from "../../assets/images/bg_login.png";
 import fbIcon from "../../assets/images/fb_icon.png";
 import googleIcon from "../../assets/images/google_icon.png";
-import appleIcon from "../../assets/images/apple_Icon.png";
+// import appleIcon from "../../assets/images/apple_Icon.png";
 import Icon from "../(components)/(Icon)/Icon";
 import Input from "../(components)/(Input)/Input";
 import Button from "../(components)/(Button)/Button";
@@ -43,7 +43,7 @@ const Login = () => {
           <div className="flex flex-row justify-center items-center gap-6">
             <Icon iconSrc={fbIcon} iconBg="bg-white" />
             <Icon iconSrc={googleIcon} iconBg="bg-white" />
-            <Icon iconSrc={appleIcon} iconBg="bg-white" />
+            {/* <Icon iconSrc={appleIcon} iconBg="bg-white" /> */}
           </div>
         </div>
       </div>
