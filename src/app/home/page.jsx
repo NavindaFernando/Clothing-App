@@ -5,7 +5,7 @@ import Image from "next/image";
 import TextCategory from "../(components)/(Category)/TextCategory";
 import Button from "../(components)/(Button)/Button";
 import Link from "next/link";
-import HomeNavbar from "../(components)/(Navbar)/HomeNavbar";
+// import HomeNavbar from "../(components)/(Navbar)/HomeNavbar";
 
 function page() {
   return (
@@ -14,7 +14,7 @@ function page() {
         className="bg-cover bg-center h-screen w-full"
         style={{ backgroundImage: `url(${bg_login.src})` }}
       >
-        <HomeNavbar />
+        {/* <HomeNavbar /> */}
         <div className="flex justify-center items-center h-screen w-full absolute top-0">
           <div className="py-10 px-14 rounded-3xl text-center relative max-md:w-full max-sm:px-10">
             <h2 className="text-[2rem] font-bold pb-4 max-sm:text-3xl">
