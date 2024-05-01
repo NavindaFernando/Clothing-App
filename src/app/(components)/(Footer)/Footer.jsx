@@ -3,7 +3,7 @@ import Item from "./FooterItem";
 import Icon from "../(Icon)/Icon";
 import fbIcon from "../../../assets/images/facebook.svg";
 import googleIcon from "../../../assets/images/google.svg";
-import appleIcon from "../../../assets/images/apple_Icon.png";
+// import appleIcon from "../../../assets/images/apple_Icon.png";
 import { COMPANYINFO, HELPANDSUPPORT, CUSTOMERCARE, FINDUSON } from "./Menus";
 
 function Footer() {
@@ -44,7 +44,7 @@ function Footer() {
         <div className="flex gap-2 items-center justify-start">
           <Icon iconSrc={fbIcon} iconBg="bg-white" />
           <Icon iconSrc={googleIcon} iconBg="bg-white" />
-          <Icon iconSrc={appleIcon} iconBg="bg-white" />
+          {/* <Icon iconSrc={appleIcon} iconBg="bg-white" /> */}
         </div>
       </div>
     </footer>
