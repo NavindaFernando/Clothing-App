@@ -24,7 +24,7 @@ const Login = () => {
           </h2>
           <p className="text-[#9B9B9B] pb-5">
             Already a member ?{" "}
-            <span className="underline cursor-pointer">
+            <span className="underline cursor-pointer hover:text-[#4b99ff]">
               <Link href="/login">sign in</Link>
             </span>
           </p>

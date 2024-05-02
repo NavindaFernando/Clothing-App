@@ -5,6 +5,7 @@ import Image from "next/image";
 import TextCategory from "../(components)/(Category)/TextCategory";
 import Button from "../(components)/(Button)/Button";
 import Link from "next/link";
+import CategoryBodyContent from "../(components)/(BodyContent)/CategoryBodyContent";
 // import HomeNavbar from "../(components)/(Navbar)/HomeNavbar";
 
 function page() {
@@ -28,32 +29,55 @@ function page() {
               />
               <Button btnWidth="w-40" btnName="Search" btnType="button" />
             </div>
-            <div className="max-w-full bg-transparent flex justify-center items-center gap-4 rounded-full p-3 max-sm:w-full max-sm:hidden">
-              <TextCategory
-                categoryName="Clothes"
-                categoryBgColor="bg-[#f4f4f494]"
-                categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
-              />
-              <TextCategory
-                categoryName="Shoes"
-                categoryBgColor="bg-[#f4f4f494]"
-                categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
-              />
-              <TextCategory
-                categoryName="Jewelry"
-                categoryBgColor="bg-[#f4f4f494]"
-                categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
-              />
-              <Link href="/">
-                <div className="relative w-fit px-10 py-2.5 bg-[#f4f4f494] text-[#9B9B9B] rounded-full mr-2 max-md:hidden cursor-pointer [box-shadow:0_5px_15px_rgba(0,0,0,0.1)]">
-                  <Image
-                    src={nextIcon}
-                    width={28}
-                    height={28}
-                    className="animate-move_right"
+
+            <div className="flex">
+              <CategoryBodyContent>
+                <div className="max-w-full w-[28.9rem] px-2 py-5 flex justify-start items-center gap-4">
+                  <TextCategory
+                    categoryName="Clothes"
+                    categoryBgColor="bg-[#f4f4f494]"
+                    categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
+                  />
+                  <TextCategory
+                    categoryName="Shoes"
+                    categoryBgColor="bg-[#f4f4f494]"
+                    categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
+                  />
+                  <TextCategory
+                    categoryName="Jewelry"
+                    categoryBgColor="bg-[#f4f4f494]"
+                    categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
+                  />
+                  <TextCategory
+                    categoryName="Clothes"
+                    categoryBgColor="bg-[#f4f4f494]"
+                    categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
+                  />
+                  <TextCategory
+                    categoryName="Shoes"
+                    categoryBgColor="bg-[#f4f4f494]"
+                    categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
+                  />
+                  <TextCategory
+                    categoryName="Jewelry"
+                    categoryBgColor="bg-[#f4f4f494]"
+                    categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
                   />
                 </div>
-              </Link>
+              </CategoryBodyContent>
+
+              <div className="max-w-full w-fit px-4 py-5 flex justify-start items-center gap-4">
+                <Link href="/">
+                  <div className="relative w-[110px] h-[44px] px-10 py-2 bg-[#f4f4f494] text-[#9B9B9B] rounded-full cursor-pointer [box-shadow:0_5px_15px_rgba(0,0,0,0.1)]">
+                    <Image
+                      src={nextIcon}
+                      width={28}
+                      height={28}
+                      className="animate-move_right"
+                    />
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

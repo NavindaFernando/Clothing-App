@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import TextCategory from "../(Category)/TextCategory";
 import CategoryBodyContent from "../(BodyContent)/CategoryBodyContent";
 
+
 function TextCategorySlider() {
 
   return (
