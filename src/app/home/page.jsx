@@ -32,7 +32,7 @@ function page() {
 
             <div className="flex">
               <CategoryBodyContent>
-                <div className="max-w-full w-[28.9rem] px-2 py-5 flex justify-start items-center gap-4">
+                <div className="max-w-full w-[28.9rem] px-2 py-5 flex justify-start items-center gap-4 max-sm:py-3">
                   <TextCategory
                     categoryName="Clothes"
                     categoryBgColor="bg-[#f4f4f494]"
@@ -66,7 +66,7 @@ function page() {
                 </div>
               </CategoryBodyContent>
 
-              <div className="max-w-full w-fit px-4 py-5 flex justify-start items-center gap-4">
+              <div className="max-w-full w-fit px-4 py-3 flex justify-start items-center gap-4 max-sm:hidden max-sm:py-3">
                 <Link href="/">
                   <div className="relative w-[110px] h-[44px] px-10 py-2 bg-[#f4f4f494] text-[#9B9B9B] rounded-full cursor-pointer [box-shadow:0_5px_15px_rgba(0,0,0,0.1)]">
                     <Image
