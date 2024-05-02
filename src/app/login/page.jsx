@@ -17,8 +17,8 @@ const Login = () => {
       <div className="text-[2rem] font-bold px-[0.875em] py-[0.475em] ">
         Company
       </div>
-      <div className="flex justify-end items-center border-2 h-screen w-full absolute top-0 pr-24 max-md:pr-0 max-md:justify-center max-sm:items-end">
-        <div className="bg-[#f4f4f494] py-10 px-14 rounded-3xl text-center relative max-md:w-full max-sm:px-10 max-sm:pb-16 max-sm:rounded-b-none">
+      <div className="flex justify-end items-center border-2 h-screen w-full absolute top-0 pr-24 max-md:pr-0 max-md:justify-center">
+        <div className="bg-[#f4f4f494] py-10 px-14 rounded-3xl text-center relative max-md:w-full max-sm:px-10">
           <h2 className="text-[2rem] font-bold pb-1">Hello</h2>
           <p className="text-[#9B9B9B] pb-5">
             Sign in to company or{" "}
