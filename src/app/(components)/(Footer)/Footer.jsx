@@ -3,7 +3,6 @@ import Item from "./FooterItem";
 import Icon from "../(Icon)/Icon";
 import fbIcon from "../../../assets/images/facebook.svg";
 import googleIcon from "../../../assets/images/google.svg";
-// import appleIcon from "../../../assets/images/apple_Icon.png";
 import { COMPANYINFO, HELPANDSUPPORT, CUSTOMERCARE, FINDUSON } from "./Menus";
 import appleIcon from "../../../assets/images/apple_icon.png";
 
